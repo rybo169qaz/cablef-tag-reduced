@@ -7,7 +7,7 @@ The file contains the encrypted tar of a (reduced in size) version of the repo (
 The following steps should be used to expand it:
 
 ### Decrypt file
-	ccrypt -d -K "<keyword>" cablef.tar.gz.cpt
+	ccrypt -d -K "<keyword>" cablef.tar.cpt
 
 ### Extract from tar
 	tar -xvf cablef.tar.gz
